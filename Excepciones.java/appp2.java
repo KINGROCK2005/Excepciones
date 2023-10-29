@@ -30,3 +30,13 @@ public class appp2 {
         }
         return 0;
     }
+      public static int pedirEnteroConExcepciones(){
+        Scanner lector = new Scanner(System.in);
+        System.out.println("Ingrese un valor entero: ");
+        try{
+            return lector.nextInt();
+        }catch(InputMismatchException e){
+            return 0;
+        }                                                                                                                                                                                                           
+    }
+}
