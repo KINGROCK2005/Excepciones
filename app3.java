@@ -24,18 +24,9 @@ public class app3 {
         }
     }
     
-}//1
+}
 
-    public static int pedirEnteroConExcepciones(){
-        Scanner lector = new Scanner(System.in);
-        System.out.println("Ingrese un valor entero: ");
-        try{
-            return lector.nextInt();
-        }catch(InputMismatchException e){
-            return 0;
-        }                                                                                                                                                                                                           
-    }
-}//2
+  
 public class App {
     public static void main(String[] args) throws Exception {
         int x = 98;
