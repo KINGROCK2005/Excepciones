@@ -1,6 +1,6 @@
 // import java.util.InputMismatchException;
 // import java.util.Scanner;
-// public class appp2 {
+// public class practicaExcepciones {
     
 //     public static void main(String[] args){
 //         int x = 1;
